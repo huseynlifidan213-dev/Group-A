@@ -12,7 +12,6 @@ const StatCards = () => {
     <div className="w-full py-8 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
 
-        <div className="border-t-4 border-green-700"></div>
 
         <div className="py-14">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -60,7 +59,6 @@ const StatCards = () => {
           </div>
         </div>
 
-        <div className="border-b-4 border-green-700"></div>
       </div>
     </div>
   )

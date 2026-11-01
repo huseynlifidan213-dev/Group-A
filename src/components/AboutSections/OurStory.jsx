@@ -6,7 +6,6 @@ const OurStory = () => {
     <div className='w-full pt-4 pb-4 px-4 bg-white'>
       <div className="max-w-6xl mx-auto">
 
-        <div className="w-full mb-8 border-b-4 border-green-700"></div>
 
         <div className="flex items-center space-x-2 text-sm text-gray-400 mb-10">
           <a href="/" className="hover:text-black transition-colors">Home</a>

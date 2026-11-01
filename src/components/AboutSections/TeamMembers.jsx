@@ -59,7 +59,6 @@ const TeamMembers = () => {
           <span className="w-2.5 h-2.5 bg-gray-300 rounded-full"></span>
         </div>
 
-        <div className="w-full mt-10 border-b-4 border-green-700"></div>
       </div>
     </div>
   )
