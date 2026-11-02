@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home"
 import About from "../pages/About/About"
 import Contact from "../pages/Contact/Contact"
 import Signup from "../pages/Signup/Signup"
-
+import Details from "../pages/Details/Details"
 
 function AppRouter() {
     return (
@@ -16,11 +16,12 @@ function AppRouter() {
                         <Route path="about" element={<About />} />
                         <Route path="contact" element={<Contact />} />
                         <Route path="signup" element={<Signup />} />
+                        <Route path="details/:id" element={<Details />} />
+                        <Route path="details" element={<Details />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
         </div>
-
     )
 }
 export default AppRouter
