@@ -8,7 +8,7 @@ import Signup from "../pages/Signup/Signup"
 
 function AppRouter() {
     return (
-        <div className="w-[100%] h-screen">
+        <div className="w-[100% ] h-screen">
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Layout />}>
